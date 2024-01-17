@@ -8,6 +8,7 @@ import plan from './plan generator.jpg'
 import chat from './chatpdf.jpg'
 import  change from './Youth for change.jpg'
 import social from './crosocial.jpg'
+import iflix from './i flix.jpg'
 
 
 export {
@@ -20,5 +21,6 @@ export {
     chat,
     change,
     social,
-    plan
+    plan,
+    iflix
 }
