@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla , plan,chat,change,social} from "../assets/images";
+import { meta, shopify, starbucks, tesla , plan,chat,change,social,iflix} from "../assets/images";
 import {
     car,
     contact,
@@ -92,11 +92,12 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
+    {/* {
         imageUrl: sass,
         name: "Sass",
         type: "Frontend",
-    },
+    }, */},
+   
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -112,19 +113,8 @@ export const skills = [
 export const experiences = [
     /*
     
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
+    
     {
         title: "React Native Developer",
         company_name: "Tesla",
@@ -186,13 +176,7 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    {
-        iconUrl: social,
-        theme: 'btn-back-red',
-        name: 'Full Stack socialmedia app',
-        description: 'Developed a web application that enables people to connect with each other through communities.Users will be able to post and comment on others post .This was to just bring people together.',
-        link: 'https://crow-gray.vercel.app/',
-    },
+    
     
     {
         iconUrl: chat,
@@ -202,12 +186,35 @@ export const projects = [
         link: 'https://github.com/169398/crowchatwithpdf',
     },
     {
+        iconUrl: social,
+        theme: 'btn-back-red',
+        name: 'Full Stack socialmedia app',
+        description: 'Developed a web application that enables people to connect with each other through communities.Users will be able to post and comment on others post .This was to just bring people together.',
+        link: 'https://crow-gray.vercel.app/',
+    },
+    {
         iconUrl: plan,
         theme: 'btn-back-pink',
         name: 'Full stack Learning plan generator',
         description: 'Built a complete Learning plan generator that enables students  to generate a personalised learning plan depending on their grade ,learning style and the subject he wants .The app will then use openapi to generate the learning plan and also provide learning resourses through links from medias like youtube and khan academy.',
         link: 'https://github.com/169398/BrainBox-AI-Learning-plan-generator-',
     },
+    {
+        iconUrl:change,
+        theme: 'btn-back-red',
+        name: ' A full stack Mental health awareness app.',
+        description: 'FullStack app that uses news API to get menntal health related articles to create awareness on the effects of mental health and the measures to reduce it and also provided the relevant authorities where one could seek help or report a case.',
+        link: 'https://github.com/169398/YOUTH-FOR-CHANGE',
+    },
+    {
+        iconUrl:iflix,
+        theme: 'btn-back-red',
+        name: 'A Full stack  movies app .',
+        description: ' This is a web app that gives latest information about movies and tv shows.I implemented the  the IMDB API to get all the information.From this I learned how to use APIs and handle the fetched data from the API endpoints .',
+        link: 'https://iflix-movies.vercel.app/',
+    },
    
   
 ];
+
+//
