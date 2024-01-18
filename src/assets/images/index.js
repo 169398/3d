@@ -9,10 +9,12 @@ import chat from './chatpdf.jpg'
 import  change from './Youth for change.jpg'
 import social from './crosocial.jpg'
 import iflix from './i flix.jpg'
+import hack from './hack.jpg'
 
 
 export {
     hero,
+    hack,
     meta,
     shopify,
     starbucks,
