@@ -9,12 +9,15 @@ import chat from './chatpdf.jpg'
 import  change from './Youth for change.jpg'
 import social from './crosocial.jpg'
 import iflix from './i flix.jpg'
-import hack from './hack.jpg'
-
+import Hackathon from './hack.jpg'
+import harvesthack from './harvest.jpg'
+import pebblehack from './pebble.jpg'
 
 export {
     hero,
-    hack,
+    harvesthack,
+    pebblehack,
+    Hackathon,
     meta,
     shopify,
     starbucks,

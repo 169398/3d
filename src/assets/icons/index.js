@@ -26,9 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import neondb from './neon.svg'
 
 export {
     css,
+    neondb,
     express,
     git,
     github,
