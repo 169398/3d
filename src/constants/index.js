@@ -118,7 +118,18 @@ export const skills = [
 
 export const experiences = [
    
-    
+        {
+        title: "  I am a freelancer ",
+        company_name: "Freelance work  ",
+        icon: Hackathon,
+        iconBg: "#b7e4c7",
+        points: [
+           
+
+           "I am a freelance web developer .Worked for many clients both local and international.this has gained me alot of experience and pushed me to continue learning new technologies    .",
+        ],
+    },
+
    
   
     {
