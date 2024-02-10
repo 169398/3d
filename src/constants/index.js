@@ -202,12 +202,20 @@ export const projects = [
         description: 'Designed and built a  web app that enables users to chat with their pdfs using  openApi.I used vectorization technology to split the the users pdf  which is stored on Amazon s3 bucket into small chunks for the open api to interact with without exceeding the openapi token.I learned alot on how to use the Amazon s3 bucket for storage',
         link: 'https://github.com/169398/crowchatwithpdf',
     },
+
+      {
+        iconUrl:iflix,
+        theme: 'btn-back-red',
+        name: 'A Full stack  Leave Portal .',
+        description: ' My clients company had a challange to tracke the information about the people who were on leave and all the issues around it.They reached out to me for help and I came up with this Nextjs application to track all the details about their workers and store  them in a database for easy retrieval through seraching the name at the search bar .I learned alot and also proud that I managed to help them solve their problem      .',
+        link: 'https://github.com/169398/LeaveTracker',
+    },
     {
         iconUrl: social,
         theme: 'btn-back-red',
         name: 'Full Stack socialmedia app',
         description: 'Developed a web application that enables people to connect with each other through communities.I used goole oauth 2.0 for authentication making it safe.I also used NEXTJS catching capabilities by utilising REDIS Database for storing the catched data making the application not only faster but  also efficient.Users will be able to post and comment on others post .This was to just bring people together.',
-        link: 'https://crow-gray.vercel.app/',
+        link: 'https://github.com/169398/Community-connect',
     },
     {
         iconUrl: plan,
