@@ -205,14 +205,53 @@ export const socialLinks = [
 
 export const projects = [
     
-    
+    {
+        iconUrl: plan,
+        theme: 'btn-back-blue',
+        name: 'Cookit, a  fullstack recipe app',
+        description: ' Cookit, a recipe discovery platform using Next.js and NextAuth for a seamless user experience.  The project solidified my grasp of modern web development with Next.js, TypeScript, and Planetscale for a scalable database. I integrated TheMealDB API to provide a vast recipe library and experimented with UI features like typewriter effects for an engaging interface. Cookit showcases my ability to leverage modern tech stacks to build user-friendly and dynamic web applications 🍽️🌟',
+        link: 'https://cookit-three.vercel.app/',
+    },
     {
         iconUrl: chat,
+        theme: 'btn-back-blue',
+        name: 'Swipe , a  fullstack messaging app',
+        description: 'Swipe, a social app I built for university students, offers a user-friendly platform for connection using a familiar swipe mechanic.📱  The project honed my full-stack development skills through Next.js, Node.js, and MongoDB, while incorporating modern libraries like React Hook Form and Zod. I gained valuable experience in building a social app, from user matching algorithms to real-time chat functionalities💬. This project demonstrates my ability to adapt to modern tech stacks and deliver engaging user experiences.🌟',
+        link: 'https://swippe.vercel.app/',
+    },
+
+    {
+        iconUrl: change,
+        theme: 'btn-back-blue',
+        name: 'Landing Page for a shoe store ',
+        description: 'Crafted a user-friendly shoe store landing page with responsive design to ensure a seamless experience across devices. Implemented a visually appealing product showcase with high-quality images, descriptions, and pricing for clear product communication. Integrated strategic offer placement to highlight promotions and drive customer engagement. Additionally, incorporated a user-friendly contact form and social media integration, fostering customer interaction and brand awareness. This project demonstrates my expertise in UI design, responsive development, and conversion optimization techniques.',
+        link: 'https://shoe-store-landing-page-vite.vercel.app/',
+    },
+
+    {
+        iconUrl: chat,
+        theme: 'btn-back-blue',
+        name: 'This  portfolio ',
+        description: 'Designed and built  this portfolio using the modern technologies and the animations which I  gained alot of skills from this project mostly on imlementing the 3D animations for a sleek user interface',
+        link:'https://idris-kulubi-portfolio.vercel.app/',
+    },
+
+    {
+        iconUrl:iflix,
+        theme: 'btn-back-red',
+        name: 'A Full stack  movies app .',
+        description: ' This is a web app that gives latest information about movies and tv shows.I implemented the  the IMDB API to get all the information.From this I learned how to use APIs and handle the fetched data from the API endpoints .',
+        link: 'https://iflix-movies.vercel.app/',
+    },
+   
+    {
+        iconUrl: social,
         theme: 'btn-back-blue',
         name: 'Crow chat with pdf',
         description: 'Designed and built a  web app that enables users to chat with their pdfs using  openApi.I used vectorization technology to split the the users pdf  which is stored on Amazon s3 bucket into small chunks for the open api to interact with without exceeding the openapi token.I learned alot on how to use the Amazon s3 bucket for storage',
         link: 'https://github.com/169398/crowchatwithpdf',
     },
+
     
 
       {
@@ -244,20 +283,7 @@ export const projects = [
         link: 'https://github.com/169398/YOUTH-FOR-CHANGE',
     },
 
-       {
-        iconUrl: chat,
-        theme: 'btn-back-blue',
-        name: 'This  portfolio ',
-        description: 'Designed and built  this portfolio using the modern technologies and the animations which I  gained alot of skills from this project mostly on imlementing the 3D animations for a sleek user interface',
-        link:'https://idris-kulubi-portfolio.vercel.app/',
-    },
-    {
-        iconUrl:iflix,
-        theme: 'btn-back-red',
-        name: 'A Full stack  movies app .',
-        description: ' This is a web app that gives latest information about movies and tv shows.I implemented the  the IMDB API to get all the information.From this I learned how to use APIs and handle the fetched data from the API endpoints .',
-        link: 'https://iflix-movies.vercel.app/',
-    },
+     
    
   
 ];
