@@ -213,6 +213,13 @@ export const projects = [
         link: 'https://cookit-three.vercel.app/',
     },
     {
+        iconUrl: iflix,
+        theme: 'btn-back-blue',
+        name: 'Apple Iphone 15 website clone ',
+        description: 'I built an interactive iPhone 15 Pro website clone using React.js to explore 3D experiences and user-centric design. This project served as a valuable learning ground for several key technologies: 3D with Three.js: I learned how to create interactive 3D models, allowing users to explore the phone in detail. Smooth Animations with GSAP: GSAPs animation library helped me craft captivating user interactions that elevate the browsing experience. Responsive React Design: The website adapts seamlessly to any device size, ensuring optimal viewing across platforms. Beyond the technical aspects, I focused on writing clean and maintainable code to promote future development and collaboration. This project demonstrates my ability to leverage modern web development tools to create engaging and user-friendly experiences',
+        link:'https://apple-2024.vercel.app/',
+    },
+    {
         iconUrl: chat,
         theme: 'btn-back-blue',
         name: 'Swipe , a  fullstack messaging app',
