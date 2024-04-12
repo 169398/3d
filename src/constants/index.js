@@ -98,11 +98,11 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {/* {
+    {
         imageUrl: sass,
         name: "Sass",
         type: "Frontend",
-    }, */},
+    },
    
     {
         imageUrl: tailwindcss,
@@ -118,6 +118,7 @@ export const skills = [
 
 export const experiences = [
    
+      
         {
         title: "  I am a freelancer ",
         company_name: "Freelance work  ",
