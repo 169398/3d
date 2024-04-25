@@ -118,7 +118,20 @@ export const skills = [
 
 export const experiences = [
    
-      
+
+   {
+        title: " Volunteer Intern  ",
+        company_name: "Skykids   ",
+        icon: Hackathon,
+        iconBg: "#b7e4c7",
+        points: [
+           
+
+           "I am a volunteer intern at skykids where the main goal is to teach kids how to code and how they can use the skills to solve their day to day problems  .this opportunity really helps me to gain more skills and experience in the business side of the tech industry.I have mostly worked on making the company visible in social media   .",
+        ],
+    },
+
+    
         {
         title: "  I am a freelancer ",
         company_name: "Freelance work  ",
