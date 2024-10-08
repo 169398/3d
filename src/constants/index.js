@@ -33,6 +33,8 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
+    
+
     {
         imageUrl: express,
         name: "Express",
@@ -119,6 +121,21 @@ export const skills = [
 export const experiences = [
    
 
+   {
+    title: "Startup Founder",
+    company_name: "StrathMall",
+    icon: pebblehack,
+    iconBg: "#b7e4c7",
+    points: [
+        "I am the founder of the marketplace startup StrathMall.",
+        "StrathMall provides a convenient online platform where students, staff, and alumni can buy and sell products anytime, eliminating the limitations of physical flea markets.",
+        "It fosters a vibrant campus economy by enabling continuous trading opportunities, supporting student entrepreneurship, and encouraging sustainable consumption.",
+        "StrathMall enhances campus life by offering a diverse range of products from electronics to fashion, catering directly to the needs and interests of the Strathmore community.",
+        "The platform promotes community engagement and collaboration among students, staff, and alumni vendors, creating a unified marketplace experience.",
+        "By streamlining transactions and logistics, StrathMall ensures seamless operations and reliable service, enhancing overall campus convenience.",
+        "This is the link to the website https://strathmall.com/",
+    ],
+},
    {
         title: " Volunteer Intern  ",
         company_name: "Skykids   ",
@@ -218,7 +235,34 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    
+     {
+    iconUrl: plan,
+    theme: 'btn-back-blue',
+    name: 'StrathMall, a fullstack marketplace app',
+    description: 'StrathMall is a comprehensive marketplace platform tailored for Strathmore University students, staff, and alumni. It allows users to buy, sell, and trade products ranging from electronics to fashion, fostering entrepreneurship within the campus. With seamless user experiences, secure transactions, and integrated logistics, StrathMall enhances the campus community’s access to essential goods and services.',
+    link: 'https://strathmall.com/',
+    },
+{
+        iconUrl: iflix,
+        theme: 'btn-back-blue',
+        name: 'Apple Iphone 15 website clone ',
+        description: 'I built an interactive iPhone 15 Pro website clone using React.js to explore 3D experiences and user-centric design. This project served as a valuable learning ground for several key technologies: 3D with Three.js: I learned how to create interactive 3D models, allowing users to explore the phone in detail. Smooth Animations with GSAP: GSAPs animation library helped me craft captivating user interactions that elevate the browsing experience. Responsive React Design: The website adapts seamlessly to any device size, ensuring optimal viewing across platforms. Beyond the technical aspects, I focused on writing clean and maintainable code to promote future development and collaboration. This project demonstrates my ability to leverage modern web development tools to create engaging and user-friendly experiences',
+        link:'https://apple-2024.vercel.app/',
+    },
+      {
+        iconUrl: chat,
+        theme: 'btn-back-blue',
+        name: 'This  portfolio ',
+        description: 'Designed and built  this portfolio using the modern technologies and the animations which I  gained alot of skills from this project mostly on imlementing the 3D animations for a sleek user interface',
+        link:'https://idris-kulubi-portfolio.vercel.app/',
+    },
+     {
+        iconUrl: change,
+        theme: 'btn-back-blue',
+        name: 'Landing Page for a shoe store ',
+        description: 'Crafted a user-friendly shoe store landing page with responsive design to ensure a seamless experience across devices. Implemented a visually appealing product showcase with high-quality images, descriptions, and pricing for clear product communication. Integrated strategic offer placement to highlight promotions and drive customer engagement. Additionally, incorporated a user-friendly contact form and social media integration, fostering customer interaction and brand awareness. This project demonstrates my expertise in UI design, responsive development, and conversion optimization techniques.',
+        link: 'https://shoe-store-landing-page-vite.vercel.app/',
+    },
     {
         iconUrl: plan,
         theme: 'btn-back-blue',
@@ -226,13 +270,9 @@ export const projects = [
         description: ' Cookit, a recipe discovery platform using Next.js and NextAuth for a seamless user experience.  The project solidified my grasp of modern web development with Next.js, TypeScript, and Planetscale for a scalable database. I integrated TheMealDB API to provide a vast recipe library and experimented with UI features like typewriter effects for an engaging interface. Cookit showcases my ability to leverage modern tech stacks to build user-friendly and dynamic web applications 🍽️🌟',
         link: 'https://cookit-three.vercel.app/',
     },
-    {
-        iconUrl: iflix,
-        theme: 'btn-back-blue',
-        name: 'Apple Iphone 15 website clone ',
-        description: 'I built an interactive iPhone 15 Pro website clone using React.js to explore 3D experiences and user-centric design. This project served as a valuable learning ground for several key technologies: 3D with Three.js: I learned how to create interactive 3D models, allowing users to explore the phone in detail. Smooth Animations with GSAP: GSAPs animation library helped me craft captivating user interactions that elevate the browsing experience. Responsive React Design: The website adapts seamlessly to any device size, ensuring optimal viewing across platforms. Beyond the technical aspects, I focused on writing clean and maintainable code to promote future development and collaboration. This project demonstrates my ability to leverage modern web development tools to create engaging and user-friendly experiences',
-        link:'https://apple-2024.vercel.app/',
-    },
+  
+
+    
     {
         iconUrl: chat,
         theme: 'btn-back-blue',
@@ -241,21 +281,9 @@ export const projects = [
         link: 'https://swippe.vercel.app/',
     },
 
-    {
-        iconUrl: change,
-        theme: 'btn-back-blue',
-        name: 'Landing Page for a shoe store ',
-        description: 'Crafted a user-friendly shoe store landing page with responsive design to ensure a seamless experience across devices. Implemented a visually appealing product showcase with high-quality images, descriptions, and pricing for clear product communication. Integrated strategic offer placement to highlight promotions and drive customer engagement. Additionally, incorporated a user-friendly contact form and social media integration, fostering customer interaction and brand awareness. This project demonstrates my expertise in UI design, responsive development, and conversion optimization techniques.',
-        link: 'https://shoe-store-landing-page-vite.vercel.app/',
-    },
+   
 
-    {
-        iconUrl: chat,
-        theme: 'btn-back-blue',
-        name: 'This  portfolio ',
-        description: 'Designed and built  this portfolio using the modern technologies and the animations which I  gained alot of skills from this project mostly on imlementing the 3D animations for a sleek user interface',
-        link:'https://idris-kulubi-portfolio.vercel.app/',
-    },
+  
 
     {
         iconUrl:iflix,
