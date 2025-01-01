@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Idris</span>
         👋
         <br />
-        A FullStack Software Developer from Kenya 🇰🇪
+        A FullStack Software Developer from Kenya 
       </h1>
     );
 

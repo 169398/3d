@@ -27,6 +27,9 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import neondb from './neon.svg'
+import python from './python.svg'
+import java from './java.svg'
+import linux from './linux.svg'
 
 export {
     css,
@@ -57,5 +60,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    python,
+    java,
+    linux
 }

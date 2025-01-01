@@ -24,7 +24,11 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    linux,
+    python,
+    java,
+    twitter
 } from "../assets/icons";
 
 export const skills = [
@@ -115,7 +119,26 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Frontend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Frontend",
+    },
+    {
+        imageUrl: linux,
+        name: "Linux",
+        type: "Operating System",
+    },
+    
+
+
+
 ];
 
 export const experiences = [
@@ -127,8 +150,8 @@ export const experiences = [
     icon: pebblehack,
     iconBg: "#b7e4c7",
     points: [
-        "I am the founder of the marketplace startup StrathMall.",
-        "StrathMall provides a convenient online platform where students, staff, and alumni can buy and sell products anytime, eliminating the limitations of physical flea markets.",
+        "I am the founder of the marketplace startup StrathMall.Where I was able to create a platform using the latest technologies and best practices that allows students, staff, and alumni to buy and sell products anytime, eliminating the limitations of physical flea markets.",
+
         "It fosters a vibrant campus economy by enabling continuous trading opportunities, supporting student entrepreneurship, and encouraging sustainable consumption.",
         "StrathMall enhances campus life by offering a diverse range of products from electronics to fashion, catering directly to the needs and interests of the Strathmore community.",
         "The platform promotes community engagement and collaboration among students, staff, and alumni vendors, creating a unified marketplace experience.",
@@ -137,14 +160,39 @@ export const experiences = [
     ],
 },
    {
-        title: " Volunteer Intern  ",
+        title: " Open Source Contributor and Developer  ",
+        company_name: "Github    ",
+        icon: Hackathon,
+        iconBg: "#b7e4c7",
+      points: [
+    "Actively contribute to open-source projects on GitHub.",
+    "Developed and published several projects:",
+      "Bulk Email Sender with Next.js 15 (link to repo): A user-friendly application for sending personalized bulk emails with features like markdown formatting, image attachments, and throttling.",
+      "react-screen-assist  https://github.com/169398/react-screen-assist: A React accessibility package enhancing screen reading and content narration for web applications.",
+      "iszeroorless  https://github.com/169398/iszeroorless: A lightweight TypeScript utility for checking if a number is zero or less.",
+      "Trial Reminder Chrome Extension  https://github.com/169398/chrome-extension-trialreminder: Helps manage free trial subscriptions, offering notifications and a centralized dashboard."
+  ]
+    },
+   {
+        title: " FullStackSoftware Developer  ",
+        company_name: "KCIC Consulting    ",
+        icon: Hackathon,
+        iconBg: "#b7e4c7",
+      points: [
+        "Developed a software solution to manage client projects, providing data insights through charts, graphs, and analytics.",
+        "Created an AI model to analyze project data and generate actionable insights.",
+        "Built a platform for the company to effectively manage clients and projects, streamlining workflows and improving project oversight."
+    ],
+    },
+   {
+        title: " FullStackSoftware Developer  ",
         company_name: "Skykids   ",
         icon: Hackathon,
         iconBg: "#b7e4c7",
         points: [
            
 
-           "I am a volunteer intern at skykids where the main goal is to teach kids how to code and how they can use the skills to solve their day to day problems  .this opportunity really helps me to gain more skills and experience in the business side of the tech industry.I have mostly worked on making the company visible in social media   .",
+           "I was a FullStackSoftware Developer at skykids where I worked on the company website and optimized the website for better performance while also working on the company's social media platforms to increase the company's visibility and adding more features to the website  .",
         ],
     },
 
@@ -199,21 +247,7 @@ export const experiences = [
             
         ],
     }
-     /*
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    */
+    
 ];
 
 export const socialLinks = [
@@ -231,7 +265,13 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/idris-kulubi/',
+    },
+    {
+        name: 'Twitter',
+        iconUrl: twitter,
+        link: 'https://x.com/IdrisMulesi',
     }
+
 ];
 
 export const projects = [
@@ -239,9 +279,38 @@ export const projects = [
     iconUrl: plan,
     theme: 'btn-back-blue',
     name: 'StrathMall, a fullstack marketplace app',
-    description: 'StrathMall is a comprehensive marketplace platform tailored for Strathmore University students, staff, and alumni. It allows users to buy, sell, and trade products ranging from electronics to fashion, fostering entrepreneurship within the campus. With seamless user experiences, secure transactions, and integrated logistics, StrathMall enhances the campus community’s access to essential goods and services.',
+    description: 'StrathMall is a comprehensive marketplace platform tailored for Strathmore University students, staff, and alumni. It allows users to buy, sell, and trade products ranging from electronics to fashion, fostering entrepreneurship within the campus. With seamless user experiences, secure transactions, and integrated logistics, StrathMall enhances the campus community&apos;s access to essential goods and services.',
     link: 'https://strathmall.com/',
     },
+
+     {
+    iconUrl: Hackathon, 
+    theme: "btn-back-blue", 
+    name: "Bulk Email Sender with Next.js 15",
+    description: "A user-friendly application for sending personalized bulk emails with features like markdown formatting, image attachments, and throttling. It is an free opensource alternative for the paid services like mailchimp and sendgrid . I learned alot on how to use the nextjs 15 and how to use the nextjs api routes to send the emails",
+    link: "https://github.com/169398/email-sender" 
+  },
+  {
+    iconUrl: change, 
+    theme: "btn-back-blue", 
+    name: "react-screen-assist",
+    description: "A React accessibility package enhancing screen reading and content narration for web applications . It is an opensource alternative for the paid services like readspeaker and google text to speech. I learned alot on how to use the react hooks and how to use the react context api to manage the state of the application",
+    link: "https://github.com/169398/react-screen-assist"
+  },
+  {
+    iconUrl: iflix, 
+    theme: "btn-back-blue", 
+    name: "iszeroorless",
+    description: "A lightweight TypeScript utility package  for checking if a number is zero or less. It has over 5k weekly downloads",
+    link: "https://github.com/169398/iszeroorless"
+  },
+  {
+    iconUrl: Hackathon, 
+    theme: "btn-back-blue", 
+    name: "Trial Reminder Chrome Extension ",
+    description: "Helps manage free trial subscriptions, offering notifications and a centralized dashboard. It is an opensource alternative for the paid services like trialreminder and trialmanager.I  learned alot on how to use the chrome extension api and how to use the chrome storage to store the data",
+    link: "https://github.com/169398/chrome-extension-trialreminder"
+  },
 {
         iconUrl: iflix,
         theme: 'btn-back-blue',
